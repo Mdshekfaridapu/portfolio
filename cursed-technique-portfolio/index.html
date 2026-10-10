@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11110f">
+  <meta name="description" content="Farid's field notes on interface design, frontend development, and cursed code.">
+  <title>Farid — Jujutsu High Field Operative</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="dossier.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Cursed Technique home"><span class="brand-mark">呪</span><span>CURSED<span class="brand-muted">TECHNIQUE</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav" id="nav">
+      <a href="#about">ABOUT</a><a href="#skills">TECHNIQUES</a><a href="#projects">MISSIONS</a><a href="#contact">CONTACT</a>
+      <a class="nav-cta" href="#contact">RECRUIT ME <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> TOKYO JUJUTSU HIGH // FIELD OPERATIVE 001</div>
+        <p class="hero-kicker">INDEPENDENT FRONTEND SORCERER</p>
+        <h1>FARID<br><span class="outline">MAKES</span> <span class="accent">IT</span><br>WORK.</h1>
+        <p class="hero-description">Designer-minded developer. I turn tangled ideas into clear, useful interfaces, then stay long enough to make the details feel right.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">VIEW MY MISSIONS <span>↘</span></a><button class="button button-ghost" id="domainButton">領域展開 <span>✦</span></button></div>
+        <div class="hero-meta"><div><span class="meta-label">CURRENT RANK</span><strong>FIELD-TESTED · ALWAYS LEARNING</strong></div><div><span class="meta-label">INNATE TECHNIQUE</span><strong>THOUGHTFUL FRONTEND</strong></div></div>
+      </div>
+      <div class="hero-art">
+        <img class="hero-photo" src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="A busy Tokyo street glowing with signs after dark" fetchpriority="high">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="sigil"><span class="sigil-kanji">呪</span><span class="sigil-ring">CURSED ENERGY · CURSED ENERGY ·</span></div>
+        <div class="energy energy-a"></div><div class="energy energy-b"></div>
+        <div class="floating-card card-top"><span class="card-icon">✳</span><span><small>CURSED ENERGY</small><strong>DETAIL-ORIENTED</strong></span></div>
+        <div class="floating-card card-bottom"><span class="live-pulse"></span><span><small>STATUS</small><strong>OPEN TO COLLABORATION</strong></span></div>
+        <span class="art-coordinate">35°41'22.2"N<br>139°41'30.1"E</span>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXORCISE THE ORDINARY</a>
+    </section>
+
+    <section class="ticker" aria-label="Portfolio keywords"><div class="ticker-track"><span>NO BUGS LEFT BEHIND ✳</span><span>CURSED CODE EXORCIST ✳</span><span>DESIGN · DEVELOP · DEPLOY ✳</span><span>NO BUGS LEFT BEHIND ✳</span><span>CURSED CODE EXORCIST ✳</span><span>DESIGN · DEVELOP · DEPLOY ✳</span></div></section>
+
+    <section class="section-wrap about section-pad" id="about">
+      <div class="section-heading"><span class="section-index">01 / PERSONNEL FILE</span><span class="heading-line"></span><span class="section-jp">術師プロフィール</span></div>
+      <div class="about-grid">
+        <div class="about-stamp"><div class="stamp-inner"><span>JUJUTSU</span><strong>術</strong><span>TECHNICIAN</span></div><span class="stamp-caption">FIELD NOTES // OPERATIVE 001</span></div>
+        <div class="about-copy"><p class="eyebrow">THE PERSON BEHIND THE TECHNIQUE</p><h2>Curiosity is<br>my <span class="accent">special grade.</span></h2><p>I'm Farid, a creative developer who likes making the complicated feel simple. I care about accessible interfaces, crisp visual details, and code that another person can actually follow.</p><p>This portfolio borrows its field-report framing from Jujutsu Kaisen. The work here is a mix of practice concepts and experiments, built to keep learning in public.</p><div class="profile-facts"><div><span>NAME</span><strong>FARID</strong></div><div><span>FOCUS</span><strong>DESIGN + FRONTEND</strong></div><div><span>AVAILABILITY</span><strong class="available">OPEN TO COLLABORATION</strong></div></div></div>
+      </div>
+    </section>
+
+    <section class="skills section-pad" id="skills"><div class="section-wrap"><div class="section-heading"><span class="section-index">02 / INNATE TECHNIQUES</span><span class="heading-line"></span><span class="section-jp">生得術式</span></div><div class="section-intro"><div><p class="eyebrow">MY DIGITAL ARSENAL</p><h2>Techniques I’ve <span class="accent">mastered.</span></h2></div><p>Every tool is a technique. Every project is a chance to sharpen it.</p></div>
+      <div class="skill-grid">
+        <article class="skill-card"><span class="skill-number">CT—01</span><span class="skill-symbol">⌘</span><h3>FRONTEND SORCERY</h3><p>Crafting responsive, accessible interfaces that feel great on every screen.</p><div class="skill-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div><div class="skill-meter"><span style="--level:88%"></span></div><small>TECHNIQUE CONTROL <b>88%</b></small></article>
+        <article class="skill-card"><span class="skill-number">CT—02</span><span class="skill-symbol">◈</span><h3>DOMAIN DESIGN</h3><p>Turning visual ideas into thoughtful layouts, motion, and design systems.</p><div class="skill-tags"><span>Figma</span><span>UI / UX</span><span>Prototyping</span></div><div class="skill-meter"><span style="--level:76%"></span></div><small>TECHNIQUE CONTROL <b>76%</b></small></article>
+        <article class="skill-card"><span class="skill-number">CT—03</span><span class="skill-symbol">⌬</span><h3>CURSED DEBUGGING</h3><p>Finding the source of the curse, breaking it down, and fixing it properly.</p><div class="skill-tags"><span>Git</span><span>DevTools</span><span>Problem Solving</span></div><div class="skill-meter"><span style="--level:82%"></span></div><small>TECHNIQUE CONTROL <b>82%</b></small></article>
+      </div></div></section>
+
+    <section class="section-wrap projects section-pad" id="projects"><div class="section-heading"><span class="section-index">03 / COMPLETED MISSIONS</span><span class="heading-line"></span><span class="section-jp">任務記録</span></div><div class="section-intro"><div><p class="eyebrow">FIELD REPORTS</p><h2>Proof of <span class="accent">power.</span></h2></div><p>Three sample missions. Replace these with your real projects and links.</p></div>
+      <div class="project-grid">
+        <article class="project-card project-featured"><div class="project-visual visual-one"><span class="visual-label">CONCEPT 001 // WEB APP</span><div class="mock-window"><div class="mock-bar"><i></i><i></i><i></i><span>task-domain.app</span></div><div class="mock-content"><div class="mock-sidebar"></div><div class="mock-main"><span class="mock-title"></span><span class="mock-line"></span><span class="mock-line short"></span><div class="mock-blocks"><i></i><i></i><i></i></div></div></div></div><span class="visual-watermark">領域</span></div><div class="project-info"><div class="project-meta"><span>01 / PRODUCTIVITY</span><span>PRACTICE BUILD</span></div><h3>Task Domain</h3><p>A calm dashboard concept for organizing tasks, spotting priorities, and getting into a useful rhythm.</p><div class="project-bottom"><div class="skill-tags"><span>HTML</span><span>CSS</span><span>JS</span></div><a href="#contact" aria-label="Ask Farid about Task Domain">ASK ABOUT IT ↗</a></div></div></article>
+        <article class="project-card"><div class="project-visual visual-two"><span class="visual-label">CONCEPT 002 // E-COMMERCE</span><div class="shop-card"><div class="shop-orb">✳</div><div class="shop-lines"><i></i><i></i><i></i></div><div class="shop-button">EXPLORE DROP ↗</div></div><span class="visual-watermark">無限</span></div><div class="project-info"><div class="project-meta"><span>02 / COMMERCE</span><span>PRACTICE BUILD</span></div><h3>Infinity Goods</h3><p>A concept storefront exploring bold art direction, clear product hierarchy, and responsive cards.</p><div class="project-bottom"><div class="skill-tags"><span>UI / UX</span><span>CSS</span></div><a href="#contact" aria-label="Ask Farid about Infinity Goods">ASK ABOUT IT ↗</a></div></div></article>
+        <article class="project-card"><div class="project-visual visual-three"><span class="visual-label">EXPERIMENT 003 // CREATIVE CODE</span><div class="terminal"><div><span class="terminal-dot"></span> curse_detector.exe</div><p>&gt; scanning interface...</p><p>&gt; <span>0 critical bugs found</span></p><p class="terminal-cursor">&gt; awaiting input_</p></div><span class="visual-watermark">解析</span></div><div class="project-info"><div class="project-meta"><span>03 / CREATIVE CODE</span><span>PLAYGROUND</span></div><h3>Curse Detector</h3><p>A playful interactive experiment exploring terminal aesthetics and tiny moments of feedback.</p><div class="project-bottom"><div class="skill-tags"><span>JavaScript</span><span>Animation</span></div><a href="#contact" aria-label="Ask Farid about Curse Detector">ASK ABOUT IT ↗</a></div></div></article>
+      </div>
+    </section>
+
+    <section class="domain-banner"><div class="domain-rings"></div><div class="section-wrap domain-content"><p class="eyebrow">MAXIMUM TECHNIQUE // 001</p><h2>READY TO EXPAND<br>YOUR <span>DOMAIN?</span></h2><p>Good things happen when the right people build together.</p><a href="#contact" class="button button-primary">LET'S COLLABORATE ↗</a></div></section>
+
+    <section class="contact section-wrap section-pad" id="contact"><div class="section-heading"><span class="section-index">04 / OPEN CHANNEL</span><span class="heading-line"></span><span class="section-jp">連絡先</span></div><div class="contact-grid"><div><p class="eyebrow">SEND A SIGNAL</p><h2>Got a mission<br>for <span class="accent">me?</span></h2><p class="contact-description">Have a project, an opportunity, or just want to talk anime and code? My inbox is open.</p><a class="email-link" href="mailto:hello@example.com">hello@example.com <span>↗</span></a><div class="social-links"><a href="https://github.com/" target="_blank" rel="noreferrer">GITHUB ↗</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LINKEDIN ↗</a><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">INSTAGRAM ↗</a></div></div>
+      <form class="contact-form" id="contactForm"><label for="senderName">YOUR NAME</label><input id="senderName" name="name" placeholder="Your name" required><label for="senderEmail">YOUR EMAIL</label><input id="senderEmail" name="email" type="email" placeholder="you@example.com" required><label for="senderMessage">YOUR MESSAGE</label><textarea id="senderMessage" name="message" rows="4" placeholder="I've got a mission for you..." required></textarea><button class="button button-primary" type="submit">PREPARE MESSAGE <span>↗</span></button><p class="form-note" id="formNote">Opens your email app with a message ready to send.</p></form>
+    </div></section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">呪</span><span>CURSED<span class="brand-muted">TECHNIQUE</span></span></a><p>BUILT WITH <span class="accent">✦</span> & A LITTLE CURSED ENERGY</p><a href="#home" class="back-top">BACK TO TOP ↑</a><small>© <span id="year"></span> FARID. BUILT FOR THE NEXT MISSION.</small></footer>
+  <div class="domain-overlay" id="domainOverlay" aria-hidden="true"><div class="overlay-ring"></div><div class="overlay-copy"><p>領域展開</p><h2>INFINITE<br><span>POTENTIAL.</span></h2><p class="overlay-sub">DOMAIN EXPANSION ACTIVATED</p><button class="button button-primary" id="closeDomain">RETURN TO REALITY ✕</button></div></div>
+  <script src="script.js"></script>
+</body>
+</html>
